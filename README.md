@@ -1,7 +1,7 @@
 ![conversor_print](https://user-images.githubusercontent.com/87662269/194181494-ce6ec6e9-bdef-4ca1-bc99-4c9b1f4c4ca1.JPG)
 
 <h1 align="center">
- CONVERSOR DE MOEDA :🪙:
+ CONVERSOR DE MOEDA :moneybag:
 </h1>
 
 <h2>
@@ -9,7 +9,7 @@
 </h2>
 
 <p>
-Esse projeto trata-se do meu portfolio pessoal, onde mostro alguns dos meus projetos, skills e certificados.
+Esse projeto trata-se de um simples conversor de moedas, que faz a conversão de Dólar para Real, e Real para Dólar.
 </p>
 
 ## 🛠️ Feito com
