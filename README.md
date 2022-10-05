@@ -25,7 +25,7 @@ Esse projeto trata-se de um simples conversor de moedas, que faz a conversão de
 ## :link: Deploy
 
 ```
-https://leonardojpereira.github.io/portfolio/
+
 ```
 
 ## Imagem / Icones
