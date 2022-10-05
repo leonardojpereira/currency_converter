@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgba(212, 173, 89, 0.877);
+}
+
+
+.container {
+    min-height: 500px;
+    max-width: 500px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 6px rgba(167, 141, 86, 0.877);
+    padding: 30px 40px;
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(73, 73, 73);
+}
+
+.img-container {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 32px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+}
+
+.info-htd {
+    margin: 28px 0;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+
+#inputValue {
+    width: 65%;
+    height: 40px;
+    border: solid #000 1px;
+    margin-right: 8px;
+    padding-left: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.option-coin {
+    width: 45%;
+    font-size: 16px;
+    border: #000 solid 1px;
+    outline: none;
+}
+
+.btn-conversor {
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    border: solid #000 1px;
+    color: #000;
+    border-radius: 8px;
+    border: 2px solid rgba(165, 144, 97, 0.877);
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: 28px 0;
+    width: 100%;
+    background-color: rgba(221, 192, 129, 0.877);
+}
+
+.btn-conversor:hover {
+    background-color: rgba(196, 162, 90, 0.877);
+}
+
+.result {
+    background-color: rgb(235, 218, 186);
+    border: rgba(196, 162, 90, 0.877) solid 2px;
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 28px 12px;
+    font-size: 18px;
+}
+
+#refresh {
+    padding: 20px;
+    color: #FFF;
+    font-size: 18px;
+    background-color: rgba(165, 144, 97, 0.877);
+}
+
+.container i {
+    background-color: rgb(165, 144, 97);
+    padding: 12px;
+    font-size: 24px;
+    margin-top: 18px;
+    color: rgb(235, 218, 186);
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.container i:hover {
+    background-color: rgb(136, 119, 80);
+}
+
+strong {
+    color: rgb(122, 102, 57);
+
+}
+
+/* media query */
+
+@media screen and (max-width: 480px) {
+    .container h1 {
+        font-size: 22px;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    #inputValue {
+        width: 100%;
+    }
+
+    .option-coin {
+        width: 100%;
+        margin-top: 8px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conversor de moedas">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Leonardo Barbosa">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    
+<main class="container">
+    <div class="img-container">
+        <img src="./assets/img/images.png" alt="" class="logo">
+    </div>
+    <div class="conversor-content">
+        <div class="underline">
+            <h1>Conversor de moedas</h1>
+        </div>
+        <p class="info-htd">*Faça a conversão de <strong>Dólar</strong> para <strong>Real</strong> e <strong>Real</strong> para <strong>Dólar</strong>*</p>
+        <div class="input-container">
+            <input type="number" id="inputValue" placeholder="Valor">
+            <select name="coins" class="option-coin">
+                <option value="1">Dólar para Real</option>
+                <option value="2">Real para Dólar</option>
+            </select>
+        </div>
+        <button onclick="convertValue()" class="btn-conversor" id="convert">Converter</button>
+        <div class="result">
+        </div>
+    </div>
+    <i onclick="clean()" class="fa-solid fa-broom"></i>
+</main>
+
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
