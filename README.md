@@ -36,6 +36,6 @@ https://fontawesome.com/
 
 <h3 align="center">
   
-  :construction: PROJETO FINALIZADO :construction:
+  :construction: PROJETO EM DESENVOLVIMENTO :construction:
   
 </h3>
