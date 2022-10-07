@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conversor de moedas">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Leonardo Barbosa">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    
+<main class="container">
+    <div class="logo-container">
+       <span class="logo"><i class="fa-solid fa-money-bill-transfer"></i></span>
+    </div>
+    <div class="conversor-content">
+        <div class="underline">
+            <h1>Conversor de moedas</h1>
+        </div>
+        <div class="conversor-container">
+            <div class="info-container">
+                <span id="tax_info"></span>
+            </div>
+            <div class="input-container">
+              <select class="select-style" id="from_currency"></select>
+              <input placeholder="Valor" class="input-style" type="number" id="from_ammount" value="1" />
+            </div>
+            <div class="swap-container">
+                <button id="swap"> ⇅ </button>
+            </div>
+            <div  class="input-container">
+              <select class="select-style" id="to_currency"></select>
+              <input class="input-style" type="number" id="to_ammount" />
+            </div>
+</main>
+
+<script src="./assets/js/app.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
