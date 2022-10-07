@@ -1,4 +1,5 @@
-![conversor_print](https://user-images.githubusercontent.com/87662269/194181494-ce6ec6e9-bdef-4ca1-bc99-4c9b1f4c4ca1.JPG)
+![print_converter_project](https://user-images.githubusercontent.com/87662269/194676344-05c70866-b440-484e-8155-80e99b1a87f8.PNG)
+
 
 <h1 align="center">
  CONVERSOR DE MOEDA :moneybag:
