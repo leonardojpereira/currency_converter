@@ -1,4 +1,5 @@
-![print_project_converter](https://user-images.githubusercontent.com/87662269/194676404-49a56f46-e482-430a-a29b-97f3aaff6bad.PNG)
+![imagem_ilustrativa](https://user-images.githubusercontent.com/87662269/194676509-2134398c-84eb-43f4-b8be-32be7c9ca9b5.PNG)
+
 
 
 <h1 align="center">
