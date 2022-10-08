@@ -11,7 +11,12 @@
 </h2>
 
 <p>
-Esse projeto trata-se de um simples conversor de moedas, que faz a conversão de Dólar para Real, e Real para Dólar.
+Esse projeto trata-se de um simples conversor de moedas, que traz a cotação atualizada.
+
+Para puxar a cotação atualizada, eu consumi a API abaixo:
+```
+https://api.exchangerate-api.com
+```
 </p>
 
 ## 🛠️ Feito com
@@ -27,7 +32,7 @@ Esse projeto trata-se de um simples conversor de moedas, que faz a conversão de
 ## :link: Deploy
 
 ```
-
+https://leonardojpereira.github.io/currency_converter/
 ```
 
 ## Imagem / Icones
